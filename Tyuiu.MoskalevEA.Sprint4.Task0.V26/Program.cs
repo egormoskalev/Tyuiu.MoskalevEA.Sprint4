@@ -1,7 +1,6 @@
 ﻿using Tyuiu.MoskalevEA.Sprint4.Task0.V26.Lib;
 
 namespace Tyuiu.MoskalevEA.Sprint4.Task0.V26;
-
 class Program
 {
     static void Main(string[] args)
