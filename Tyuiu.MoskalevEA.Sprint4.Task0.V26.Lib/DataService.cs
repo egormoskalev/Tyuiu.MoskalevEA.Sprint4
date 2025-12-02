@@ -7,7 +7,7 @@ namespace Tyuiu.MoskalevEA.Sprint4.Task0.V26.Lib
         public int GetSumOddArrEl(int[] array)
         {
             int sum = 0;
-            for (int i = 0; i <= array.Length - 1; i++)
+            foreach (int i in array)
             {
                 if (i % 2 != 0)
                 {

@@ -15,7 +15,7 @@ class Program
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        int[] array = {9, 3, 7, 1, 5, 3, 2, 1, 7};
+        int[] array = { 9, 3, 7, 1, 5, 5, 3, 2, 1, 7 };
 
         Console.Write("Массив: ");
         for (int i = 0; i < array.Length; i++)
