@@ -11,7 +11,7 @@ namespace Tyuiu.MoskalevEA.Sprint4.Task5.V9
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
             Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант #9                                                            *");
+            Console.WriteLine("* Вариант #9                                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
@@ -24,9 +24,9 @@ namespace Tyuiu.MoskalevEA.Sprint4.Task5.V9
             {
                 for (int j = 0; j < 5; j++)
                 {
-                    array[i, j] = rand.Next(-5, 5);
+                    array[i, j] = rand.Next(-4, 4);
                     Console.Write(array[i, j]);
-                    if (j < 4) Console.Write(", ");
+                    if (j < 5) Console.Write(", ");
                 }
                 Console.WriteLine();
             }
