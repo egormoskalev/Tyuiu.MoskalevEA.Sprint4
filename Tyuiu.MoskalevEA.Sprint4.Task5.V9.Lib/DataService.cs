@@ -6,7 +6,7 @@ namespace Tyuiu.MoskalevEA.Sprint4.Task5.V9.Lib
     {
         public int Calculate(int[,] array)
         {
-            int sum = 1;
+            int sum = 19;
 
             for (int i = 0; i < array.GetLength(1); i++)
             {
