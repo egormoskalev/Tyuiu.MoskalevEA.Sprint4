@@ -2,7 +2,7 @@
 
 namespace Tyuiu.MoskalevEA.Sprint4.Task4.V28.Lib
 {
-    public class DataService : ISprint4Task3V28
+    public class DataService : ISprint4Task4V28
     {
         public int[,] Calculate(int[,] array)
         {
@@ -19,11 +19,6 @@ namespace Tyuiu.MoskalevEA.Sprint4.Task4.V28.Lib
             }
 
             return array;
-        }
-
-        int ISprint4Task3V28.Calculate(int[,] array)
-        {
-            throw new NotImplementedException();
         }
     }
 }
