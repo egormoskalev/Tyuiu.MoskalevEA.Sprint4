@@ -24,7 +24,7 @@ namespace Tyuiu.MoskalevEA.Sprint4.Task5.V9
             {
                 for (int j = 0; j < 5; j++)
                 {
-                    array[i, j] = rand.Next(-4, 4);
+                    array[i, j] = rand.Next(-5, 5);
                     Console.Write(array[i, j]);
                     if (j < 4) Console.Write(", ");
                 }
