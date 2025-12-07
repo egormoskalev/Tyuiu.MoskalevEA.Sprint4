@@ -6,7 +6,7 @@ namespace Tyuiu.MoskalevEA.Sprint4.Task6.V14.Lib
     {
         public string[] Calculate(string[] array)
         {
-            return Array.FindAll(array, element => element.Length == 3);
+            return Array.FindAll(array, element => element.Length > 3);
         }
     }
 }
